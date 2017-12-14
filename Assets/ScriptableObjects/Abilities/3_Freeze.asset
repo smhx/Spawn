@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9db5e31eecbef754890450f030120773, type: 3}
+  m_Name: 3_Freeze
+  m_EditorClassIdentifier: 
+  type: 3
+  sprite: {fileID: 21300000, guid: d7833274db78c4530acae774c4fa037b, type: 3}
+  maxLevel: 5
+  cost: 00000000900100008403000078050000d0070000c4090000
+  probabilityWeight: 000000000a0000000a0000000a0000000a0000000a000000
+  duration:
+  - 0
+  - 4
+  - 6
+  - 8
+  - 10
+  - 12
+  description:
+  - 'All bricks are frozen for 4 seconds. In time mode, the clock is also frozen. '
+  - Upgrade to make Freeze last for 6 seconds.
+  - Upgrade to make Freeze last for 8 seconds.
+  - Upgrade to make Freeze last for 10 seconds.
+  - Upgrade to make Freeze last for 12 seconds.
+  - Fully Upgraded!
